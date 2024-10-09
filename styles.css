@@ -17,6 +17,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(255px,1fr));
     grid-gap: 1em;
+    margin-right: 170px;
 }
 
 
@@ -61,26 +62,58 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    height: 100%;
+    padding: 20px;
+    position: fixed;
+    justify-content: space-between;
+    /* justify-content: flex-end; מצמיד את התוכן לימין */
+
 }
 
 
 .options{
-    margin: 20px 0px;
-    padding: 0px;
+    margin:  0;
+    padding: 0;
     display: flex;
-    position:fixed;
+    /* position:fixed; */
     flex-direction: column;
     list-style-type: none;
+    text-align: center;
 }
 
-.options li ,a{
+#div-logo {
+    margin-top: 20px; /* רווח מעל הלוגו */
+    display: flex;
+    justify-content: center; /* מרכז את הלוגו */
+    align-items: center; /* ממרכז גם אנכית */
+    padding: 10px; /* רווח פנימי */
+    border-top: 1px solid #eaecee; /* גבול עליון */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* צל */
+    background-color: #fff; /* צבע רקע */
+    border-radius: 5px; /* פינות מעוגלות */
+}
+
+#img-logo {
+    max-width: 100%; /* ודא שהלוגו לא יחרוג מהמרחב */
+    height: auto; /* שמירה על פרופורציות */
+}
+
+
+.options li{
+    margin: 10px 0;
+}
+
+.options li a{
     padding: 10px 20px;
     color:darkgray;
     text-decoration: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
 
 }
 
-.options li:hover, a:hover{
+.options li:hover a{
     color:rgb(239, 239, 239);
     background-color: #eadeee;
 }
