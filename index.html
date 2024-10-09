@@ -8,14 +8,22 @@
 </head>
 <body>
     <div class="main">
-        <div class="container">
-            <h1>Welcome to my website!</h1>
-            <p>This is a simple website created using HTML, CSS, and JavaScript.</p>
-            <button class="button">Click me</button>
+        <div class="sidebar">
+            <ul class="options">
+                <li class="option">
+                    <a href="#" onclick="viewProducts('all')">כל המוצריים</a>
+                </li>
+                <li class="option">
+                    <a href="#" onclick="viewProducts('all')">כלי כתיבה</a>
+                </li>
+                <li class="option">
+                    <a href="#" onclick="viewProducts('all')">מחברות</a>
+                </li>
+            </ul>
         </div>
-        <div class="footer">
-            <p>&copy; 2021 My Website. All rights reserved.</p>
+        <div class="products-container">
         </div>
+
     </div>
     <script src="products.js"></script>
     <script src="main.js"></script>
