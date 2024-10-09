@@ -1,9 +1,9 @@
 const getProduct = (product) => {
     return `
     <div class="product">
-    <h2>${product.title}</h2>
+    <p class="card-header">${product.title}</h2>
     <img src="${product.image}" alt="">
-    <h3>${product.price}</h3>
+    <p class="price">${product.price+"₪"}</p>
     </div>
     `;
 }

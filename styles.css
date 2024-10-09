@@ -39,6 +39,22 @@ body {
     align-self: center;
     object-fit: cover;
 }
+
+.card-header{
+    font-weight:bold;
+    text-align:right;
+    margin: 10px;
+    color: rgb(95, 28, 158);
+}
+
+.price{
+    font-size: 18px;
+    text-align:right;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    color: blueviolet;
+}
+
 .sidebar {
     width: 170px;
     background-color: rgb(239, 239, 239);
@@ -65,7 +81,7 @@ body {
 
 .options li:hover, a:hover{
     color:rgb(239, 239, 239);
-    background-color: cornflowerblue;
+    background-color: #eadeee;
 }
 
 
