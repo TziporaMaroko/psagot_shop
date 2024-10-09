@@ -1,12 +1,16 @@
 const getProduct = (product) => {
     return `
     <div class="product">
-    <p class="card-header">${product.title}</h2>
-    <img src="${product.image}" alt="">
-    <p class="price">${product.price+"₪"}</p>
+        <p class="card-header">${product.title}</p>
+        <img src="${product.image}" alt="${product.title}">
+        <div class="price-cart-row">
+            <button class="product-button">הוסף לסל</button>
+            <p class="price">${product.price}₪</p>
+        </div>
     </div>
     `;
-}
+};
+
 
 const renderProducts = (products) => {
     let productsStr = ``;
