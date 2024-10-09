@@ -4,63 +4,63 @@ const Gnotebooks = [
         catalogId: 82,
         title: "ספירלה 2 נושא שורות - 1יח",
         price: 9.9,
-        image: "/imgs/notebooks/iq2sub.jpg",
+        image: "/imgs/iq2sub.jpg",
         tags: ["rows", "2sub", "a4", "spiral"]
     },
     {
         catalogId: 1,
         title: "ספירלה 1 נושא שורות - 1יח",
         price: 4.9,
-        image: "/imgs/notebooks/iq1sub.jpg",
+        image: "/imgs/iq1sub.jpg",
         tags: ["rows", "1sub", "a4", "spiral"]
     },
     {
         catalogId: 2,
         title: "ספירלה 1 נושא משבצות",
         price: 4.9,
-        image: "/imgs/notebooks/basik_math.jpg",
+        image: "/imgs/basik_math.jpg",
         tags: ["squares", "a4", "spiral"]
     },
     {
         catalogId: 3,
         title: "ספירלה 2 נושא משבצות - 1יח",
         price: 9.9,
-        image: "/imgs/notebooks/iq2sub.jpg",
+        image: "/imgs/iq2sub.jpg",
         tags: ["squares", "a4", "spiral"]
     },
     {
         catalogId: 4,
         title: "מארז 5 מחברת שורות - רגילה",
         price: 6.5,
-        image: "/imgs/craft/19.jpg",
+        image: "/imgs/19.jpg",
         tags: ["rows", "a5"]
     },
     {
         catalogId: 5,
         title: "מארז 5 מחברת שורות - 10 שורות",
         price: 7.5,
-        image: "/imgs/craft/19.jpg",
+        image: "/imgs/19.jpg",
         tags: ["rows", "a5", "10rows"]
     },
     {
         catalogId: 6,
         title: "מארז 5 מחברת שורות - 14 שורות",
         price: 7.5,
-        image: "/imgs/craft/19.jpg",
+        image: "/imgs/19.jpg",
         tags: ["rows", "a5", "10rows"]
     },
     {
         catalogId: 7,
         title: "מארז 5 מחברת משבצות",
         price: 7.5,
-        image: "/imgs/craft/19.jpg",
+        image: "/imgs/19.jpg",
         tags: ["squares", "a5"]
     },
     {
         catalogId: 8,
         title: "מחברת אנגלית A5 בודדת",
         price: 1.9,
-        image: "/imgs/notebooks/english.jpg",
+        image: "/imgs/english.jpg",
         tags: ["english", "a5", "rows"]
     },
     {
@@ -133,21 +133,21 @@ const Gstationary = [
         catalogId: 39,
         title: "מארז 10 מחקים של סטדלר",
         price: 8.0,
-        image: "/imgs/craft/02.jpg",
+        image: "/imgs/02.jpg",
     },
     {
         catalogId: 40,
         title: "מחדד מיכל סטדלר",
         price: 7.9,
         old_price: 10.7,
-        image: "/imgs/craft/22.jpg",
+        image: "/imgs/22.jpg",
     },
     {
         catalogId: 41,
         title: "פילוט 0.4 - מארז של 10",
         price: 71.0,
         old_price: 95.0,
-        image: "/imgs/craft/pilot10.jpg",
+        image: "/imgs/pilot10.jpg",
     },
     {
         catalogId: 42,
