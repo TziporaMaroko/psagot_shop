@@ -5,7 +5,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .main{
     display: flex;
@@ -20,9 +20,16 @@ body {
 
 
 .product{
-    margin: 10px;
-    border: 1px solid lightgray;
-    padding: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 0 0 10px 10px;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #eaecee;
+    border-top: 3px solid #eadeee;
 }
 .sidebar {
     width: 170px;
