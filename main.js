@@ -16,3 +16,9 @@ function viewProducts(str) {
         default:
     };
 }
+
+function main() {
+    viewProducts("all");
+}
+
+main();
